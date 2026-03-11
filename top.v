@@ -34,10 +34,6 @@ mux mux_inst1 (
 
 demux demux_inst1 (
 
-    //.C(sw[3:0]),
-    //.Y(sw[7:4]),
-    //.F(sw[11:8]),
-    //.select_mux(select_mux),
     .In(output_mux),
     .select_demux(select_demux),
     .enable(btnC),
@@ -49,4 +45,5 @@ demux demux_inst1 (
 );
 
 endmodule
+
 
